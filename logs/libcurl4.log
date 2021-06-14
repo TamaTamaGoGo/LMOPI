@@ -1,0 +1,10 @@
+root@DietPi:~/Downloads# apt list libcurl4
+Listing... Done
+libcurl4/stable,now 7.64.0-4+deb10u2 arm64 [installed,automatic]
+N: There is 1 additional version. Please use the '-a' switch to see it
+
+root@DietPi:~/Downloads# apt list libcurl4 -a
+Listing... Done
+libcurl4/buster-backports 7.74.0-1.2~bpo10+1 arm64
+libcurl4/stable,now 7.64.0-4+deb10u2 arm64 [installed,automatic]
+libcurl4/stable 7.64.0-4+deb10u1 arm64
