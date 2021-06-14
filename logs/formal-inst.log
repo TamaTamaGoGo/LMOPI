@@ -1,0 +1,54 @@
+root@DietPi:~/Downloads# apt install -y ./Minecraft.deb 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Note, selecting 'minecraft-launcher:amd64' instead of './Minecraft.deb'
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ minecraft-launcher:amd64 : Depends: default-jre:amd64 but it is not installable
+                            Depends: libasound2:amd64 (>= 1.0.23) but it is not installable
+                            Depends: libatk-bridge2.0-0:amd64 (>= 2.5.3) but it is not installable
+                            Depends: libatk1.0-0:amd64 (>= 2.2.0) but it is not installable
+                            Depends: libatspi2.0-0:amd64 (>= 2.9.90) but it is not installable
+                            Depends: libc6:amd64 (>= 2.16) but it is not installable
+                            Depends: libcairo2:amd64 (>= 1.6.0) but it is not installable
+                            Depends: libcups2:amd64 (>= 1.4.0) but it is not installable
+                            Depends: libdbus-1-3:amd64 (>= 1.5.12) but it is not installable
+                            Depends: libdrm2:amd64 (>= 2.4.38) but it is not installable
+                            Depends: libexpat1:amd64 (>= 2.0.1) but it is not installable
+                            Depends: libgbm1:amd64 (>= 8.1~0) but it is not installable
+                            Depends: libfontconfig1:amd64 (>= 2.8.0) but it is not installable
+                            Depends: libgcc1:amd64 (>= 1:4.1.1) but it is not installable
+                            Depends: libgdk-pixbuf2.0-0:amd64 (>= 2.22.0) but it is not installable
+                            Depends: libglib2.0-0:amd64 (>= 2.39.4) but it is not installable
+                            Depends: libgtk-3-0:amd64 (>= 3.18.9) but it is not installable
+                            Depends: libnspr4:amd64 (>= 2:4.9-2~) but it is not installable
+                            Depends: libnss3:amd64 (>= 2:3.22) but it is not installable
+                            Depends: libpango1.0-0:amd64 (>= 1.14.0) but it is not installable or
+                                     libpango-1.0-0:amd64 (>= 1.14.0) but it is not installable
+                            Depends: libpangocairo-1.0-0:amd64 (>= 1.14.0) but it is not installable
+                            Depends: libstdc++6:amd64 (>= 4.8.0) but it is not installable
+                            Depends: libx11-6:amd64 (>= 2:1.4.99.1) but it is not installable
+                            Depends: libxcomposite1:amd64 (>= 1:0.3-1) but it is not installable
+                            Depends: libxcursor1:amd64 (> 1.1.2) but it is not installable
+                            Depends: libxdamage1:amd64 (>= 1:1.1) but it is not installable
+                            Depends: libxext6:amd64 but it is not installable
+                            Depends: libxfixes3:amd64 but it is not installable
+                            Depends: libxi6:amd64 (>= 2:1.2.99.4) but it is not installable
+                            Depends: libxrandr2:amd64 (>= 2:1.2.99.3) but it is not installable
+                            Depends: libxrender1:amd64 but it is not installable
+                            Depends: libxss1:amd64 but it is not installable
+                            Depends: libxtst6:amd64 but it is not installable
+                            Depends: libx11-xcb1:amd64 but it is not installable
+                            Depends: libxcb-dri3-0:amd64 but it is not installable
+                            Depends: libxcb1:amd64 (>= 1.9.2) but it is not installable
+                            Depends: libbz2-1.0:amd64 but it is not installable
+                            Depends: libcurl3:amd64 but it is not installable or
+                                     libcurl4:amd64 but it is not installable
+                            Depends: libuuid1:amd64 but it is not installable
+E: Unable to correct problems, you have held broken packages.
