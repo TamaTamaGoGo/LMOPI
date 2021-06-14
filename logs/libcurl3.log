@@ -1,0 +1,2 @@
+root@DietPi:~/Downloads# apt list -a libcurl3
+Listing... Done
